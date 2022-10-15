@@ -1,0 +1,105 @@
+/*HEADER*/
+header{
+    display: flex;
+    height: 60px;
+    background-color: #5263cf77;
+}
+#title{
+    color: white;
+}
+#note-sorted,#note-current,#note-iterate{
+    color: white;
+    margin:5px 10px;
+}
+#note-sorted>div ,#note-current>div ,#note-iterate>div {
+    border: solid 2px black;
+    margin: auto;
+    width: 25px;
+    height: 25px;
+}
+#note-sorted>div{
+    background-color: greenyellow;
+}
+#note-current>div{
+    background-color: rgb(255, 60, 0);
+}
+#note-iterate>div{
+    background-color: #384285;
+}
+#note {
+    display: flex;
+    margin:0 auto;
+}
+/*--------------*/
+
+
+/*Main*/
+/*Container*/
+#container{
+    display: flex;
+    margin: 0 auto;
+    background-color: #6876ab;
+    height: 500px;
+    width: 80%;
+}
+
+body{
+    margin:0;
+    background-color: #9194b8;
+}
+.rectangle{
+    background-color:wheat;
+    margin:0 5px;
+}
+/*-----------*/
+/*Control*/
+    #control{
+        display: flex;
+        margin-top: 5px;
+    }
+    #start_btn ,#stop_btn{
+        background-color:#d6fcff;
+        font-size: 17px;
+        font-weight: bold;
+        color:black;
+        padding: 10px;
+        margin: 5px 10px 5px 10%;
+    }
+    #stop_btn{
+        margin-left:10px ;
+        margin-right:10px ;
+    }
+    #plus-minus{
+        margin-top: 2px;
+    }
+    p{
+        margin:0px;
+    }
+    #speed{
+        margin: 0 10px;
+        text-align: center;
+        font-weight: bold;
+        border: solid 2px black;
+        background-color: #d6fcff;
+        padding: 5px;
+    }
+    #sort-name{
+        border: solid 2px black;
+        font-weight: bold;
+        background-color: #d6fcff;
+        margin: 0 10%;
+        margin-left: 47.9%;
+        
+    }
+    .sorted{
+        background-color: greenyellow;
+    }
+    .current{
+        background-color: rgb(255, 60, 0);
+    }
+    .checking{
+        background-color: #384285;
+    }
+    
+/*-------------*/
+/*-------------*/
